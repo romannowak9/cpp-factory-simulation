@@ -1,4 +1,4 @@
-# Install script for directory: C:/git/Nowy folder/googletest-master
+# Install script for directory: C:/git/ZPO_Symulacja/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/git/Nowy folder/cmake-build-debug/googletest-master/googlemock/cmake_install.cmake")
+  include("C:/git/ZPO_Symulacja/cmake-build-debug/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 

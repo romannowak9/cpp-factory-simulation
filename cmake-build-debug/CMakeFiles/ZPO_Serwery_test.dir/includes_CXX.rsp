@@ -1,1 +1,1 @@
--IC:/git/NOWYFO~1/include -IC:/git/NOWYFO~1/mocks -isystem C:/git/NOWYFO~1/GOOGLE~1/GOOGLE~1/include -isystem C:/git/NOWYFO~1/GOOGLE~1/GOOGLE~2/include -isystem C:/git/NOWYFO~1/GOOGLE~1/GOOGLE~1 -isystem C:/git/NOWYFO~1/GOOGLE~1/GOOGLE~2
+-IC:/git/ZPO_Symulacja/include -IC:/git/ZPO_Symulacja/mocks -isystem C:/git/ZPO_Symulacja/googletest-master/googlemock/include -isystem C:/git/ZPO_Symulacja/googletest-master/googletest/include -isystem C:/git/ZPO_Symulacja/googletest-master/googlemock -isystem C:/git/ZPO_Symulacja/googletest-master/googletest

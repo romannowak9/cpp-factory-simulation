@@ -52,10 +52,10 @@ RM = "D:\Program Files\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\git\Nowy folder"
+CMAKE_SOURCE_DIR = C:\git\ZPO_Symulacja
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\git\Nowy folder\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\git\ZPO_Symulacja\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include googletest-master/googletest/CMakeFiles/gtest.dir/depend.make
@@ -72,16 +72,16 @@ googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: googlete
 googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: googletest-master/googletest/CMakeFiles/gtest.dir/includes_CXX.rsp
 googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: ../googletest-master/googletest/src/gtest-all.cc
 googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: googletest-master/googletest/CMakeFiles/gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\git\Nowy folder\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
-	cd /d C:\git\NOWYFO~1\CMAKE-~1\GOOGLE~2\GOOGLE~2 && "D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj -MF CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c "C:\git\Nowy folder\googletest-master\googletest\src\gtest-all.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\git\ZPO_Symulacja\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+	cd /d C:\git\ZPO_Symulacja\cmake-build-debug\googletest-master\googletest && "D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj -MF CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c C:\git\ZPO_Symulacja\googletest-master\googletest\src\gtest-all.cc
 
 googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /d C:\git\NOWYFO~1\CMAKE-~1\GOOGLE~2\GOOGLE~2 && "D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\git\Nowy folder\googletest-master\googletest\src\gtest-all.cc" > CMakeFiles\gtest.dir\src\gtest-all.cc.i
+	cd /d C:\git\ZPO_Symulacja\cmake-build-debug\googletest-master\googletest && "D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\git\ZPO_Symulacja\googletest-master\googletest\src\gtest-all.cc > CMakeFiles\gtest.dir\src\gtest-all.cc.i
 
 googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /d C:\git\NOWYFO~1\CMAKE-~1\GOOGLE~2\GOOGLE~2 && "D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\git\Nowy folder\googletest-master\googletest\src\gtest-all.cc" -o CMakeFiles\gtest.dir\src\gtest-all.cc.s
+	cd /d C:\git\ZPO_Symulacja\cmake-build-debug\googletest-master\googletest && "D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\git\ZPO_Symulacja\googletest-master\googletest\src\gtest-all.cc -o CMakeFiles\gtest.dir\src\gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
@@ -93,19 +93,19 @@ gtest_EXTERNAL_OBJECTS =
 lib/libgtest.a: googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
 lib/libgtest.a: googletest-master/googletest/CMakeFiles/gtest.dir/build.make
 lib/libgtest.a: googletest-master/googletest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\git\Nowy folder\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\lib\libgtest.a"
-	cd /d C:\git\NOWYFO~1\CMAKE-~1\GOOGLE~2\GOOGLE~2 && $(CMAKE_COMMAND) -P CMakeFiles\gtest.dir\cmake_clean_target.cmake
-	cd /d C:\git\NOWYFO~1\CMAKE-~1\GOOGLE~2\GOOGLE~2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gtest.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\git\ZPO_Symulacja\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\lib\libgtest.a"
+	cd /d C:\git\ZPO_Symulacja\cmake-build-debug\googletest-master\googletest && $(CMAKE_COMMAND) -P CMakeFiles\gtest.dir\cmake_clean_target.cmake
+	cd /d C:\git\ZPO_Symulacja\cmake-build-debug\googletest-master\googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gtest.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 googletest-master/googletest/CMakeFiles/gtest.dir/build: lib/libgtest.a
 .PHONY : googletest-master/googletest/CMakeFiles/gtest.dir/build
 
 googletest-master/googletest/CMakeFiles/gtest.dir/clean:
-	cd /d C:\git\NOWYFO~1\CMAKE-~1\GOOGLE~2\GOOGLE~2 && $(CMAKE_COMMAND) -P CMakeFiles\gtest.dir\cmake_clean.cmake
+	cd /d C:\git\ZPO_Symulacja\cmake-build-debug\googletest-master\googletest && $(CMAKE_COMMAND) -P CMakeFiles\gtest.dir\cmake_clean.cmake
 .PHONY : googletest-master/googletest/CMakeFiles/gtest.dir/clean
 
 googletest-master/googletest/CMakeFiles/gtest.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\git\Nowy folder" "C:\git\Nowy folder\googletest-master\googletest" "C:\git\Nowy folder\cmake-build-debug" "C:\git\Nowy folder\cmake-build-debug\googletest-master\googletest" "C:\git\Nowy folder\cmake-build-debug\googletest-master\googletest\CMakeFiles\gtest.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\git\ZPO_Symulacja C:\git\ZPO_Symulacja\googletest-master\googletest C:\git\ZPO_Symulacja\cmake-build-debug C:\git\ZPO_Symulacja\cmake-build-debug\googletest-master\googletest C:\git\ZPO_Symulacja\cmake-build-debug\googletest-master\googletest\CMakeFiles\gtest.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : googletest-master/googletest/CMakeFiles/gtest.dir/depend
 

@@ -52,10 +52,10 @@ RM = "D:\Program Files\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\git\Nowy folder"
+CMAKE_SOURCE_DIR = C:\git\ZPO_Symulacja
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\git\Nowy folder\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\git\ZPO_Symulacja\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ZPO_Serwery_debug.dir/depend.make
@@ -72,46 +72,46 @@ CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.obj: CMakeFiles/ZPO_Serwery_deb
 CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.obj: CMakeFiles/ZPO_Serwery_debug.dir/includes_CXX.rsp
 CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.obj: ../src/package.cpp
 CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.obj: CMakeFiles/ZPO_Serwery_debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\git\Nowy folder\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.obj"
-	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.obj -MF CMakeFiles\ZPO_Serwery_debug.dir\src\package.cpp.obj.d -o CMakeFiles\ZPO_Serwery_debug.dir\src\package.cpp.obj -c "C:\git\Nowy folder\src\package.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\git\ZPO_Symulacja\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.obj"
+	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.obj -MF CMakeFiles\ZPO_Serwery_debug.dir\src\package.cpp.obj.d -o CMakeFiles\ZPO_Serwery_debug.dir\src\package.cpp.obj -c C:\git\ZPO_Symulacja\src\package.cpp
 
 CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.i"
-	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\git\Nowy folder\src\package.cpp" > CMakeFiles\ZPO_Serwery_debug.dir\src\package.cpp.i
+	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\git\ZPO_Symulacja\src\package.cpp > CMakeFiles\ZPO_Serwery_debug.dir\src\package.cpp.i
 
 CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.s"
-	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\git\Nowy folder\src\package.cpp" -o CMakeFiles\ZPO_Serwery_debug.dir\src\package.cpp.s
+	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\git\ZPO_Symulacja\src\package.cpp -o CMakeFiles\ZPO_Serwery_debug.dir\src\package.cpp.s
 
 CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.obj: CMakeFiles/ZPO_Serwery_debug.dir/flags.make
 CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.obj: CMakeFiles/ZPO_Serwery_debug.dir/includes_CXX.rsp
 CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.obj: ../src/storage_types.cpp
 CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.obj: CMakeFiles/ZPO_Serwery_debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\git\Nowy folder\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.obj"
-	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.obj -MF CMakeFiles\ZPO_Serwery_debug.dir\src\storage_types.cpp.obj.d -o CMakeFiles\ZPO_Serwery_debug.dir\src\storage_types.cpp.obj -c "C:\git\Nowy folder\src\storage_types.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\git\ZPO_Symulacja\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.obj"
+	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.obj -MF CMakeFiles\ZPO_Serwery_debug.dir\src\storage_types.cpp.obj.d -o CMakeFiles\ZPO_Serwery_debug.dir\src\storage_types.cpp.obj -c C:\git\ZPO_Symulacja\src\storage_types.cpp
 
 CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.i"
-	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\git\Nowy folder\src\storage_types.cpp" > CMakeFiles\ZPO_Serwery_debug.dir\src\storage_types.cpp.i
+	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\git\ZPO_Symulacja\src\storage_types.cpp > CMakeFiles\ZPO_Serwery_debug.dir\src\storage_types.cpp.i
 
 CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.s"
-	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\git\Nowy folder\src\storage_types.cpp" -o CMakeFiles\ZPO_Serwery_debug.dir\src\storage_types.cpp.s
+	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\git\ZPO_Symulacja\src\storage_types.cpp -o CMakeFiles\ZPO_Serwery_debug.dir\src\storage_types.cpp.s
 
 CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.obj: CMakeFiles/ZPO_Serwery_debug.dir/flags.make
 CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.obj: CMakeFiles/ZPO_Serwery_debug.dir/includes_CXX.rsp
 CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.obj: CMakeFiles/ZPO_Serwery_debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\git\Nowy folder\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.obj"
-	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.obj -MF CMakeFiles\ZPO_Serwery_debug.dir\main.cpp.obj.d -o CMakeFiles\ZPO_Serwery_debug.dir\main.cpp.obj -c "C:\git\Nowy folder\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\git\ZPO_Symulacja\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.obj"
+	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.obj -MF CMakeFiles\ZPO_Serwery_debug.dir\main.cpp.obj.d -o CMakeFiles\ZPO_Serwery_debug.dir\main.cpp.obj -c C:\git\ZPO_Symulacja\main.cpp
 
 CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.i"
-	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\git\Nowy folder\main.cpp" > CMakeFiles\ZPO_Serwery_debug.dir\main.cpp.i
+	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\git\ZPO_Symulacja\main.cpp > CMakeFiles\ZPO_Serwery_debug.dir\main.cpp.i
 
 CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.s"
-	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\git\Nowy folder\main.cpp" -o CMakeFiles\ZPO_Serwery_debug.dir\main.cpp.s
+	"D:\Program Files\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\git\ZPO_Symulacja\main.cpp -o CMakeFiles\ZPO_Serwery_debug.dir\main.cpp.s
 
 # Object files for target ZPO_Serwery_debug
 ZPO_Serwery_debug_OBJECTS = \
@@ -129,7 +129,7 @@ ZPO_Serwery_debug.exe: CMakeFiles/ZPO_Serwery_debug.dir/build.make
 ZPO_Serwery_debug.exe: CMakeFiles/ZPO_Serwery_debug.dir/linklibs.rsp
 ZPO_Serwery_debug.exe: CMakeFiles/ZPO_Serwery_debug.dir/objects1.rsp
 ZPO_Serwery_debug.exe: CMakeFiles/ZPO_Serwery_debug.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\git\Nowy folder\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ZPO_Serwery_debug.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\git\ZPO_Symulacja\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ZPO_Serwery_debug.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ZPO_Serwery_debug.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,6 +141,6 @@ CMakeFiles/ZPO_Serwery_debug.dir/clean:
 .PHONY : CMakeFiles/ZPO_Serwery_debug.dir/clean
 
 CMakeFiles/ZPO_Serwery_debug.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\git\Nowy folder" "C:\git\Nowy folder" "C:\git\Nowy folder\cmake-build-debug" "C:\git\Nowy folder\cmake-build-debug" "C:\git\Nowy folder\cmake-build-debug\CMakeFiles\ZPO_Serwery_debug.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\git\ZPO_Symulacja C:\git\ZPO_Symulacja C:\git\ZPO_Symulacja\cmake-build-debug C:\git\ZPO_Symulacja\cmake-build-debug C:\git\ZPO_Symulacja\cmake-build-debug\CMakeFiles\ZPO_Serwery_debug.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ZPO_Serwery_debug.dir/depend
 

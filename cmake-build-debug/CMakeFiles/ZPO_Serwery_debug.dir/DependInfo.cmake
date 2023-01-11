@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/git/Nowy folder/main.cpp" "CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.obj" "gcc" "CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.obj.d"
-  "C:/git/Nowy folder/src/package.cpp" "CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.obj" "gcc" "CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.obj.d"
-  "C:/git/Nowy folder/src/storage_types.cpp" "CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.obj" "gcc" "CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.obj.d"
+  "C:/git/ZPO_Symulacja/main.cpp" "CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.obj" "gcc" "CMakeFiles/ZPO_Serwery_debug.dir/main.cpp.obj.d"
+  "C:/git/ZPO_Symulacja/src/package.cpp" "CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.obj" "gcc" "CMakeFiles/ZPO_Serwery_debug.dir/src/package.cpp.obj.d"
+  "C:/git/ZPO_Symulacja/src/storage_types.cpp" "CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.obj" "gcc" "CMakeFiles/ZPO_Serwery_debug.dir/src/storage_types.cpp.obj.d"
   )
 
 # Targets to which this target links.

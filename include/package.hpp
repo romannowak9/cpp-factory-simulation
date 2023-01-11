@@ -13,10 +13,15 @@
 class Package {
 public:
     Package();
+
     explicit Package(ElementID id2assign);
+
     Package(Package&& apackage) noexcept: elementId_(apackage.get_id()) {};
-    Package& operator=(Package&& other) noexcept {return *this;};
-    ElementID get_id() const {return elementId_;};
+
+    Package& operator=(Package&& other) noexcept;
+
+    ElementID get_id() const { return elementId_; };
+
     ~Package();
 
 private:
@@ -24,7 +29,6 @@ private:
     static std::set<ElementID> inline assigned_IDs_{};
     static std::set<ElementID> inline freed_IDs_{1};
 };
-
 
 
 #endif //ZPO_SERWERY_PACKAGE_HPP
